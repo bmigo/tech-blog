@@ -12,11 +12,11 @@ Post.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    postTitle: {
+    title: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    postContent: {
+    content: {
       type: DataTypes.STRING,
       allowNull: false,
     },
